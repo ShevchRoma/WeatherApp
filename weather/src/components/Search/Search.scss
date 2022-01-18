@@ -1,0 +1,21 @@
+.search {
+    margin: 10px;
+    max-width: 1000px;
+}
+.search-body-form {
+    display: flex;
+    justify-content: center;
+}
+.search-body-form__input {
+    padding: 12px 140px;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 5px;
+}
+.search-body-form__button {
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(57, 145, 245);
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
