@@ -6,7 +6,7 @@ const initialState = {
    cities: []
 }
 
-   const addCity = (state = [],action) =>{
+   const addCity = (state = initialState, action) =>{
         switch(action.type){
             case ADD_CITY:
                 return{
