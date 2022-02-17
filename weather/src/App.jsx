@@ -10,7 +10,7 @@ import Header from './components/Header/Header';
 const App = () => {
   
   const weatherData = useSelector((state) => state.weather.data,shallowEqual);
-  const cities = useSelector(state => state.addcity,shallowEqual)
+  const cities = useSelector(state => state.addcity.cities,shallowEqual)
   
   console.log(weatherData);
   return (
